@@ -71,7 +71,6 @@ requestWindowFeature(Window.FEATURE_NO_TITLE);
         UserDataHelper myDbHelper;
         myDbHelper = new UserDataHelper(getContext());
 
-
         try {
             myDbHelper.createDataBase();
 

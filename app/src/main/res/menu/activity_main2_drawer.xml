@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="Catalog">
+            <menu >
+
+                <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/jewels"
+            android:icon="@drawable/jwellary"
+            android:title="Jewellery" />
+        <item
+            android:id="@+id/gifts"
+            android:icon="@drawable/gifticon"
+            android:title="Gifts" />
+        <item
+            android:id="@+id/cards"
+            android:icon="@drawable/cardicon"
+            android:title="Cards" />
+                </group>
+            </menu>
+
+        </item>
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single"
+                android:id="@+id/group_2">
+            <item android:id="@+id/bill"
+                android:icon="@drawable/billing"
+                android:title="Billing">
+            </item>
+
+            <item android:id="@+id/contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us">
+            </item>
+            <item android:id="@+id/log"
+                android:icon="@drawable/login"
+                android:title="Log In">
+            </item>
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

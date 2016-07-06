@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.creation.creative.creativecreation.ContactUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ebecec"
+        android:textColor="#14c6b7"
+        android:gravity="center"
+        android:text="Contact Us at..."/>
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2d837b"
+        android:gravity="center"
+        android:text="E-mail id :    creativecreation05@gmail.com"/>
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2d837b"
+        android:gravity="center"
+        android:text="Contact no. : +91 8855228855"/>
+
+</LinearLayout>

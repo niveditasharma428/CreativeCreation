@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:padding="10dp"
+
+    android:background="@drawable/border"
+        android:orientation="vertical"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+<HorizontalScrollView
+    android:layout_marginRight="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:paddingLeft="2dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+android:layout_marginLeft="5dp"
+                android:id="@+id/img_1"
+                android:background="@drawable/border"
+                android:src="@drawable/neck"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/neck"
+                android:id="@+id/img_2"
+                android:background="@drawable/border"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/neck"
+                android:id="@+id/img_3"
+                android:background="@drawable/border"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+</HorizontalScrollView>
+        <ImageView
+            android:background="@drawable/border"
+            android:layout_marginTop="5dp"
+           android:layout_gravity="center"
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/name"
+           android:text="name"
+            android:textColor="#b64e4e"
+            android:textSize="15dp"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/price"
+            android:text="price"
+            android:textColor="#b64e4e"
+            android:textSize="15dp"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/buy_now"
+                android:text="Buy now"
+                android:background="@drawable/button"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/add"
+                android:clickable="true"
+                android:text="Add to"
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="1dp"
+                    android:textColor="#b64e4e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/add_cart"/>
+                <TextView
+                    android:layout_marginLeft="1dp"
+                    android:id="@+id/value_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/remove"
+                android:clickable="true"
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="remove from "/>
+                <TextView
+                    android:layout_marginLeft="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/remove_cart"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dismiss"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="end"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/dismiss"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"/>
+    </LinearLayout>
+
+
+
+
+
+
